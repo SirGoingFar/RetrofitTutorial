@@ -28,7 +28,8 @@
 
         <activity android:name=".activities.AccessEndPointsOutsideYourBaseUrl" />
         <activity android:name=".activities.DownloadFile" />
-        <activity android:name=".ErrorHandlingActivity"></activity>
+        <activity android:name=".activities.ErrorHandlingActivity" />
+        <activity android:name=".activities.FormUrlEncodedActivity"></activity>
     </application>
 
 </manifest>
