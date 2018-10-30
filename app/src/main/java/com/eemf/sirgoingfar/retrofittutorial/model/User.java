@@ -8,6 +8,7 @@ public class User {
     private String email;
     private int age;
     private String[] topicOfInterest;
+    private String accessToken;
 
     public User(String name, String password, String email, int age, String[] topicOfInterest) {
         this.name = name;
@@ -19,5 +20,10 @@ public class User {
 
     public int getUserId(){
         return userId;
+    }
+
+    public String getAccessToken() {
+        /*Access Token or Authentication Token*/
+        return accessToken;
     }
 }
