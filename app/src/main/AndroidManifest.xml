@@ -18,6 +18,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <!-- For OAuth -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="callback"
+                    android:scheme="futurestudio" />
+            </intent-filter>
         </activity>
         <activity android:name=".activities.CreateAccountActivity" />
         <activity android:name=".activities.UploadSingleFileSingleDescriptionTextActivity" />
@@ -28,7 +40,12 @@
 
         <activity android:name=".activities.AccessEndPointsOutsideYourBaseUrl" />
         <activity android:name=".activities.DownloadFile" />
-        <activity android:name=".ErrorHandlingActivity"></activity>
+        <activity android:name=".activities.ErrorHandlingActivity" />
+        <activity android:name=".activities.FormUrlEncodedActivity" />
+        <activity android:name=".activities.SendAndReceivePlainTextActivity" />
+        <activity android:name=".activities.QueryParameterActivity" />
+        <activity android:name=".activities.AuthenticationActivity" />
+        <activity android:name=".activities.GitHubOAuthActivity" />
     </application>
 
 </manifest>

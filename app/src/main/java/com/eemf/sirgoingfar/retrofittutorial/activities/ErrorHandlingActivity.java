@@ -1,12 +1,12 @@
-package com.eemf.sirgoingfar.retrofittutorial;
+package com.eemf.sirgoingfar.retrofittutorial.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
+import com.eemf.sirgoingfar.retrofittutorial.R;
 import com.eemf.sirgoingfar.retrofittutorial.Util.NetworkIoHelper;
 import com.eemf.sirgoingfar.retrofittutorial.data.client_requests.UserClient;
 import com.eemf.sirgoingfar.retrofittutorial.data.response_models.BaseErrorModel;
-import com.eemf.sirgoingfar.retrofittutorial.data.response_models.BaseResponseModel;
 import com.eemf.sirgoingfar.retrofittutorial.data.response_models.request_responses.GetUserSessionDataResponseModel;
 import com.eemf.sirgoingfar.retrofittutorial.data.response_models.response_parsers.ResponseParser;
 
